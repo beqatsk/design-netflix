@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: black;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-background{
+    position: relative;
+    width: 100%;
+    height: 692px;
+    background-image: url(../images/img1.png);
+    background-position: center bottom;
+    background-size: cover;
+}
+.header-btn{
+    width: 150px;
+    height: 70px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header-btn:hover{
+    background-color: rgb(110, 8, 8);
+}
+.header-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 150px;
+}
+h1{
+    width: 496px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    color: #FFFFFF;
+    text-align: center;
+}
+h2{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header-text{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search{
+    width: 450px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 19px;
+    color: #8C8C8C;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.search-btn{
+    width: 213px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E50914;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.45);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: rgb(110, 8, 8);
+}
+header{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+/* SECTION-PLATFORM */
+
+.platform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.platform-title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #FFFFFF;
+}
+.platform-h{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+}
+.platform-text{
+    width: 517px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+
+/* SECTION-DOWNLOAD */
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #FFFFFF;
+}
+.download-h{
+    width: 517px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+}
+.download-text{
+    width: 517px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+}
+.download-img{
+    width: 530px;
+}
+
+/* SECTION-FORMS */
+
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.forms-title{
+    font-size: 35px;
+    line-height: 55px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.form{
+    width: 615px;
+    height: 55px;
+    background: #303030;
+    border-radius: 30px;
+    font-size: 26px;
+    padding-left: 20px;
+}
+.post{
+    position: relative;
+}
+
+.wrapper-img{
+   position: absolute;
+   top: 15px;
+   left: 550px;
+}
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 50px 0px;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+h5, ul{
+    font-weight: 400;
+    line-height: 15px;
+    color: #737373;
+}
+h5{
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 13px;
+}
